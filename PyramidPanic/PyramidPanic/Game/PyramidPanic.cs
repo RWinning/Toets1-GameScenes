@@ -18,6 +18,7 @@ namespace PyramidPanic
         //Fields
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
+        
 
         //Maak een variable aan van het type StartScene
         private StartScene startScene;
@@ -27,6 +28,7 @@ namespace PyramidPanic
 
         //maak een variable ISate aan met type interface.
         private IState iState;
+
 
 
         #region Proberties
@@ -66,6 +68,13 @@ namespace PyramidPanic
         public GameOverScene GameOverScene
         {
             get { return this.gameOverScene; }
+        }
+
+        //maak het field this.spriteBatch beschikbaar buiten de class d.m.v
+        //een propertie SpriteBatch
+        public SpriteBatch SpriteBatch
+        {
+            get { return this.spriteBatch; }
         }
         
         #endregion
