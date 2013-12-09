@@ -30,6 +30,9 @@ namespace PyramidPanic
         //maak een variable van het type buttons en geef hem de waarde.Start.
         private Buttons buttonActive = Buttons.Start;
 
+        //maak een variable van het type Buttons en geef hem de waarde.Start.
+        private List<Image> ButtonList;
+
 
         //Construcor
         public Menu(PyramidPanic game)
@@ -37,6 +40,8 @@ namespace PyramidPanic
             this.game = game;
             this.Initialize();
         }
+
+        
 
         public void Initialize()
         {
@@ -46,11 +51,12 @@ namespace PyramidPanic
 
         public void LoadContent()
         {
-            this.Start = new Image(this.game, @"StartScene\Button_start", new Vector2(10f, 430f));
-            this.Load = new Image(this.game, @"StartScene\Button_load", new Vector2(140f, 430f));
-            this.Help = new Image(this.game, @"StartScene\Button_help", new Vector2(270f, 430f));
-            this.Scores = new Image(this.game, @"StartScene\Button_scores", new Vector2(400f, 430f));
-            this.Quit = new Image(this.game, @"StartScene\Button_quit", new Vector2(530f, 430f));
+            this.ButtonList = new List<Image>();
+            this.ButtonList.Add(this.Start = new Image(this.game, @"StartScene\Button_start", new Vector2(10f, 430f)));
+            this.ButtonList.Add(this.Load = new Image(this.game, @"StartScene\Button_load", new Vector2(140f, 430f)));
+            this.ButtonList.Add(this.Help = new Image(this.game, @"StartScene\Button_help", new Vector2(270f, 430f)));
+            this.ButtonList.Add(this.Scores = new Image(this.game, @"StartScene\Button_scores", new Vector2(400f, 430f)));
+            this.ButtonList.Add(this.Quit = new Image(this.game, @"StartScene\Button_quit", new Vector2(530f, 430f)));
         }
 
 
@@ -60,6 +66,18 @@ namespace PyramidPanic
             if (Input.EdgeDetectKeyDown(Keys.Right))
             {
                 this.buttonActive++;
+            }
+
+            if (Input.EdgeDetectKeyDown(Keys.Left))
+            {
+                this.buttonActive--;
+            }
+
+            //we doorlopen de list<image> this.buttonlist met een foreach instructor.
+
+            foreach (Image image in this.ButtonList)
+            {
+                image.Color = Color.White;
             }
 
             //maak een switchcase instructie voor de variable voor buttonActive
