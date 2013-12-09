@@ -22,6 +22,15 @@ namespace PyramidPanic
         private PyramidPanic game;
 
 
+        private Color activeColor = Color.Gold;
+
+        // maak een enumiration voor de mogelijke buttons.
+        private enum Buttons { Start, Load, Help, Scores, Quit };
+
+        //maak een variable van het type buttons en geef hem de waarde.Start.
+        private Buttons buttonActive = Buttons.Start;
+
+
         //Construcor
         public Menu(PyramidPanic game)
         {
@@ -48,7 +57,30 @@ namespace PyramidPanic
         //Update
         public void Update(GameTime gameTime)
         {
+            if (Input.EdgeDetectKeyDown(Keys.Right))
+            {
+                this.buttonActive++;
+            }
 
+            //maak een switchcase instructie voor de variable voor buttonActive
+            switch (this.buttonActive)
+            {
+                case Buttons.Start:
+                    this.Start.Color = this.activeColor;
+                    break;
+                case Buttons.Load:
+                    this.Load.Color = this.activeColor;
+                    break;            
+                case Buttons.Help:
+                    this.Help.Color = this.activeColor;
+                    break;            
+                case Buttons.Scores:
+                    this.Scores.Color = this.activeColor;
+                    break;           
+                case Buttons.Quit:
+                    this.Quit.Color = this.activeColor;
+                    break;
+            }
         }
 
 
