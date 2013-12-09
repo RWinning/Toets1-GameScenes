@@ -37,7 +37,7 @@ namespace PyramidPanic
         {
             //Nu maken we een object aan of instantie van de class image.
             this.background = new Image(this.game, @"StartScene\Background", new Vector2(0f ,0f));
-            this.title = new Image(this.game, @"StartScene\Title", new Vector2(100f, 50f));
+            this.title = new Image(this.game, @"StartScene\Title", new Vector2(100f, 30f));
         }
 
         public void Update(GameTime gameTime)
@@ -58,6 +58,7 @@ namespace PyramidPanic
         {
             this.game.GraphicsDevice.Clear(Color.Yellow);
             this.background.Draw(gameTime);
+            this.title.Draw(gameTime);
             
             
         }

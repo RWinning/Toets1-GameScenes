@@ -25,6 +25,7 @@ namespace PyramidPanic
         //ConstructorMethod
         public Image(PyramidPanic game, string pathNameAsset, Vector2 position)
         {
+            this.game = game;
             this.texture = game.Content.Load<Texture2D>(pathNameAsset);
             this.rectangle = new Rectangle((int)position.X, (int)position.Y, this.texture.Width, this.texture.Height); 
         }
