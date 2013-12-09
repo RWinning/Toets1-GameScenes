@@ -18,3 +18,8 @@ C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-20
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.pdb
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Background.xnb
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Title.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_help.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_load.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_quit.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_scores.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_start.xnb

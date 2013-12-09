@@ -110,6 +110,7 @@
     <Compile Include="GameScene\GameOverScene\GameOverScene.cs" />
     <Compile Include="GameScene\HelpScene\HelpScene.cs" />
     <Compile Include="GameScene\PlayScene\PlayScene.cs" />
+    <Compile Include="GameScene\StartScene\Menu.cs" />
     <Compile Include="GameScene\StartScene\StartScene.cs" />
     <Compile Include="Game\IState.cs" />
     <Compile Include="HelperClass\Image.cs" />

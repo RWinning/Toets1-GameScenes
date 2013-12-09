@@ -19,6 +19,7 @@ namespace PyramidPanic
         //Maakt een variabelen (Reference) van Image class genaamt background
         private Image background;
         private Image title;
+        private Menu menu;
 
         public StartScene(PyramidPanic game)
         {
@@ -38,6 +39,7 @@ namespace PyramidPanic
             //Nu maken we een object aan of instantie van de class image.
             this.background = new Image(this.game, @"StartScene\Background", new Vector2(0f ,0f));
             this.title = new Image(this.game, @"StartScene\Title", new Vector2(100f, 30f));
+            this.menu = new Menu(this.game);
         }
 
         public void Update(GameTime gameTime)
@@ -59,6 +61,7 @@ namespace PyramidPanic
             this.game.GraphicsDevice.Clear(Color.Yellow);
             this.background.Draw(gameTime);
             this.title.Draw(gameTime);
+            this.menu.Draw(gameTime);
             
             
         }
