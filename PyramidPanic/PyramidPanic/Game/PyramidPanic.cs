@@ -27,6 +27,7 @@ namespace PyramidPanic
         private HelpScene helpScene;
         private ScoresScene scoresScene;
         private GameOverScene gameOverScene;
+        private QuitScene quitScene;
 
         //maak een variable ISate aan met type interface.
         private IState iState;
@@ -87,6 +88,13 @@ namespace PyramidPanic
             get { return this.gameOverScene; }
         }
 
+        //maak het field this.quitScene beschikbaar buiten de class d.m.v
+        //een propertie QuitScene
+        public QuitScene QuitScene
+        {
+            get { return this.quitScene; }
+        }
+
         //maak het field this.spriteBatch beschikbaar buiten de class d.m.v
         //een propertie SpriteBatch
         public SpriteBatch SpriteBatch
@@ -137,6 +145,7 @@ namespace PyramidPanic
             this.helpScene = new HelpScene(this);
             this.scoresScene = new ScoresScene(this);
             this.gameOverScene = new GameOverScene(this);
+            this.quitScene = new QuitScene(this);
             this.iState = this.startScene;
         }
         
