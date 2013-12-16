@@ -31,6 +31,11 @@ namespace PyramidPanic
             set { this.color = value; }
         }
 
+        public Rectangle Rectangle
+        {
+            get { return this.rectangle; }
+        }
+
         //ConstructorMethod
         public Image(PyramidPanic game, string pathNameAsset, Vector2 position)
         {

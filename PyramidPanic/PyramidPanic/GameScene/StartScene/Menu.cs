@@ -117,6 +117,59 @@ namespace PyramidPanic
                     }
                     break;
             }
+
+            if (this.Start.Rectangle.Intersects(Input.MouseRect()))
+            {
+                if (Input.EdgeDetectMousePressLeft())
+                {
+                    this.game.IState = this.game.PlayScene;
+                }
+                this.ChangeButtonColorToNormal();
+                this.Start.Color = this.activeColor;
+            }
+            else if (this.Load.Rectangle.Intersects(Input.MouseRect()))
+            {
+                if (Input.EdgeDetectMousePressLeft())
+                {
+                    this.game.IState = this.game.LoadScene;
+                }
+                this.ChangeButtonColorToNormal();
+                this.Load.Color = this.activeColor;
+            }
+            else if (this.Help.Rectangle.Intersects(Input.MouseRect()))
+            {
+                if (Input.EdgeDetectMousePressLeft())
+                {
+                    this.game.IState = this.game.HelpScene;
+                }
+                this.ChangeButtonColorToNormal();
+                this.Help.Color = this.activeColor;
+            }
+            else if (this.Scores.Rectangle.Intersects(Input.MouseRect()))
+            {
+                if (Input.EdgeDetectMousePressLeft())
+                {
+                    this.game.IState = this.game.ScoresScene;
+                }
+                this.ChangeButtonColorToNormal();
+                this.Scores.Color = this.activeColor;
+            }
+            else if (this.Quit.Rectangle.Intersects(Input.MouseRect()))
+            {
+
+                if (Input.EdgeDetectMousePressLeft())
+                {
+                     this.game.Exit();
+                }
+                this.ChangeButtonColorToNormal();
+                this.Quit.Color = this.activeColor;
+            }
+            else
+            {
+                
+                
+            }
+
         }
 
 
