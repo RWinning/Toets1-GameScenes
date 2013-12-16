@@ -92,7 +92,7 @@ namespace PyramidPanic
                     this.Load.Color = this.activeColor;
                     if (Input.EdgeDetectKeyDown(Keys.Enter))
                     {
-                        this.game.IState = this.game.PlayScene;
+                        this.game.IState = this.game.LoadScene;
                     }
                     break;            
                 case Buttons.Help:
@@ -106,7 +106,7 @@ namespace PyramidPanic
                     this.Scores.Color = this.activeColor;
                     if (Input.EdgeDetectKeyDown(Keys.Enter))
                     {
-                        this.game.IState = this.game.PlayScene;
+                        this.game.IState = this.game.ScoresScene;
                     }
                     break;           
                 case Buttons.Quit:
