@@ -109,6 +109,7 @@
   <ItemGroup>
     <Compile Include="GameScene\GameOverScene\GameOverScene.cs" />
     <Compile Include="GameScene\HelpScene\HelpScene.cs" />
+    <Compile Include="GameScene\LoadScene\LoadScene.cs" />
     <Compile Include="GameScene\PlayScene\PlayScene.cs" />
     <Compile Include="GameScene\StartScene\Menu.cs" />
     <Compile Include="GameScene\StartScene\StartScene.cs" />

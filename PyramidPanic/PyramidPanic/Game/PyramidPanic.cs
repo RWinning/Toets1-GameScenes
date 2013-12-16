@@ -23,6 +23,7 @@ namespace PyramidPanic
         //Maak een variable aan van het type StartScene
         private StartScene startScene;
         private PlayScene playScene;
+        private LoadScene loadScene;
         private HelpScene helpScene;
         private GameOverScene gameOverScene;
 
@@ -54,6 +55,14 @@ namespace PyramidPanic
         public PlayScene PlayScene
         {
             get { return this.playScene; }
+        }
+
+
+        //maak het field this.loadScene beschikbaar buiten de class d.m.v
+        //een propertie LoadScene
+        public LoadScene LoadScene
+        {
+            get { return this.loadScene; }
         }
 
         //maak het field this.helpScene beschikbaar buiten de class d.m.v
@@ -116,6 +125,7 @@ namespace PyramidPanic
             //de constructor aan te roepen van de Startscene class.
             this.startScene = new StartScene(this);
             this.playScene = new PlayScene(this);
+            this.loadScene = new LoadScene(this);
             this.helpScene = new HelpScene(this);
             this.gameOverScene = new GameOverScene(this);
             this.iState = this.startScene;

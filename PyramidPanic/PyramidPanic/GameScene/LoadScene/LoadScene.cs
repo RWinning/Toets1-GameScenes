@@ -11,12 +11,12 @@ using Microsoft.Xna.Framework.Media;
 
 namespace PyramidPanic
 {
-    public class GameOverScene : IState
+    class LoadScene : IState
     {
         //Fields
         private PyramidPanic game;
 
-        public GameOverScene(PyramidPanic game)
+         public LoadScene(PyramidPanic game)
         {
             this.game = game;
         }
@@ -36,20 +36,13 @@ namespace PyramidPanic
 
             if (Input.EdgeDetectKeyDown(Keys.Left) || Input.EdgeDetectMousePressRight())
             {
-                this.game.IState = this.game.StartScene;
+                this.game.IState = this.game.GameOverScene;
             }
-
         }
-
-
 
         public void Draw(GameTime gameTime)
         {
-            this.game.GraphicsDevice.Clear(Color.Green);
-
-
+            this.game.GraphicsDevice.Clear(Color.NavajoWhite);
         }
     }
 }
-
-
