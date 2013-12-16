@@ -27,6 +27,7 @@ namespace PyramidPanic
         // maak een enumiration voor de mogelijke buttons.
         private enum Buttons { Start, Load, Help, Scores, Quit };
 
+
         //maak een variable van het type buttons en geef hem de waarde.Start.
         private Buttons buttonActive = Buttons.Start;
 
@@ -65,38 +66,55 @@ namespace PyramidPanic
         {
             if (Input.EdgeDetectKeyDown(Keys.Right))
             {
+                this.ChangeButtonColorToNormal();
                 this.buttonActive++;
             }
 
             if (Input.EdgeDetectKeyDown(Keys.Left))
             {
+                this.ChangeButtonColorToNormal();
                 this.buttonActive--;
             }
 
-            //we doorlopen de list<image> this.buttonlist met een foreach instructor.
-
-            foreach (Image image in this.ButtonList)
-            {
-                image.Color = Color.White;
-            }
+           
 
             //maak een switchcase instructie voor de variable voor buttonActive
             switch (this.buttonActive)
             {
                 case Buttons.Start:
                     this.Start.Color = this.activeColor;
+                    if (Input.EdgeDetectKeyDown(Keys.Enter))
+                    {
+                        this.game.IState = this.game.PlayScene;
+                    }
                     break;
                 case Buttons.Load:
                     this.Load.Color = this.activeColor;
+                    if (Input.EdgeDetectKeyDown(Keys.Enter))
+                    {
+                        this.game.IState = this.game.PlayScene;
+                    }
                     break;            
                 case Buttons.Help:
                     this.Help.Color = this.activeColor;
+                    if (Input.EdgeDetectKeyDown(Keys.Enter))
+                    {
+                        this.game.IState = this.game.HelpScene;
+                    }
                     break;            
                 case Buttons.Scores:
                     this.Scores.Color = this.activeColor;
+                    if (Input.EdgeDetectKeyDown(Keys.Enter))
+                    {
+                        this.game.IState = this.game.PlayScene;
+                    }
                     break;           
                 case Buttons.Quit:
                     this.Quit.Color = this.activeColor;
+                    if (Input.EdgeDetectKeyDown(Keys.Enter))
+                    {
+                        game.Exit();
+                    }
                     break;
             }
         }
@@ -105,11 +123,20 @@ namespace PyramidPanic
         //Draw
         public void Draw(GameTime gameTime)
         {
-            this.Start.Draw(gameTime);
-            this.Load.Draw(gameTime);
-            this.Help.Draw(gameTime);
-            this.Scores.Draw(gameTime);
-            this.Quit.Draw(gameTime);
+            foreach (Image image in this.ButtonList)
+            {
+                image.Draw(gameTime);
+            }
+        }
+        //helper method voor het met wit licht beschijnen van de buttons.
+        private void ChangeButtonColorToNormal()
+        {
+            //we doorlopen de list<image> this.buttonlist met een foreach instructor.
+
+            foreach (Image image in this.ButtonList)
+            {
+                image.Color = Color.White;
+            }
         }
     }
 }
