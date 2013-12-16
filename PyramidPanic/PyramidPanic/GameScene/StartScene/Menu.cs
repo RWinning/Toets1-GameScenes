@@ -79,44 +79,7 @@ namespace PyramidPanic
            
 
             //maak een switchcase instructie voor de variable voor buttonActive
-            switch (this.buttonActive)
-            {
-                case Buttons.Start:
-                    this.Start.Color = this.activeColor;
-                    if (Input.EdgeDetectKeyDown(Keys.Enter))
-                    {
-                        this.game.IState = this.game.PlayScene;
-                    }
-                    break;
-                case Buttons.Load:
-                    this.Load.Color = this.activeColor;
-                    if (Input.EdgeDetectKeyDown(Keys.Enter))
-                    {
-                        this.game.IState = this.game.LoadScene;
-                    }
-                    break;            
-                case Buttons.Help:
-                    this.Help.Color = this.activeColor;
-                    if (Input.EdgeDetectKeyDown(Keys.Enter))
-                    {
-                        this.game.IState = this.game.HelpScene;
-                    }
-                    break;            
-                case Buttons.Scores:
-                    this.Scores.Color = this.activeColor;
-                    if (Input.EdgeDetectKeyDown(Keys.Enter))
-                    {
-                        this.game.IState = this.game.ScoresScene;
-                    }
-                    break;           
-                case Buttons.Quit:
-                    this.Quit.Color = this.activeColor;
-                    if (Input.EdgeDetectKeyDown(Keys.Enter))
-                    {
-                        game.Exit();
-                    }
-                    break;
-            }
+            
 
             if (this.Start.Rectangle.Intersects(Input.MouseRect()))
             {
@@ -126,6 +89,7 @@ namespace PyramidPanic
                 }
                 this.ChangeButtonColorToNormal();
                 this.Start.Color = this.activeColor;
+                this.buttonActive = Buttons.Start;
             }
             else if (this.Load.Rectangle.Intersects(Input.MouseRect()))
             {
@@ -135,6 +99,7 @@ namespace PyramidPanic
                 }
                 this.ChangeButtonColorToNormal();
                 this.Load.Color = this.activeColor;
+                this.buttonActive = Buttons.Load;
             }
             else if (this.Help.Rectangle.Intersects(Input.MouseRect()))
             {
@@ -144,6 +109,7 @@ namespace PyramidPanic
                 }
                 this.ChangeButtonColorToNormal();
                 this.Help.Color = this.activeColor;
+                this.buttonActive = Buttons.Help;
             }
             else if (this.Scores.Rectangle.Intersects(Input.MouseRect()))
             {
@@ -153,6 +119,7 @@ namespace PyramidPanic
                 }
                 this.ChangeButtonColorToNormal();
                 this.Scores.Color = this.activeColor;
+                this.buttonActive = Buttons.Scores;
             }
             else if (this.Quit.Rectangle.Intersects(Input.MouseRect()))
             {
@@ -163,11 +130,51 @@ namespace PyramidPanic
                 }
                 this.ChangeButtonColorToNormal();
                 this.Quit.Color = this.activeColor;
+                this.buttonActive = Buttons.Quit;
             }
             else
             {
-                
-                
+                this.ChangeButtonColorToNormal();
+                //this.Start.Color = this.activeColor;
+
+                switch (this.buttonActive)
+                {
+                    case Buttons.Start:
+                        this.Start.Color = this.activeColor;
+                        if (Input.EdgeDetectKeyDown(Keys.Enter))
+                        {
+                            this.game.IState = this.game.PlayScene;
+                        }
+                        break;
+                    case Buttons.Load:
+                        this.Load.Color = this.activeColor;
+                        if (Input.EdgeDetectKeyDown(Keys.Enter))
+                        {
+                            this.game.IState = this.game.LoadScene;
+                        }
+                        break;
+                    case Buttons.Help:
+                        this.Help.Color = this.activeColor;
+                        if (Input.EdgeDetectKeyDown(Keys.Enter))
+                        {
+                            this.game.IState = this.game.HelpScene;
+                        }
+                        break;
+                    case Buttons.Scores:
+                        this.Scores.Color = this.activeColor;
+                        if (Input.EdgeDetectKeyDown(Keys.Enter))
+                        {
+                            this.game.IState = this.game.ScoresScene;
+                        }
+                        break;
+                    case Buttons.Quit:
+                        this.Quit.Color = this.activeColor;
+                        if (Input.EdgeDetectKeyDown(Keys.Enter))
+                        {
+                            game.Exit();
+                        }
+                        break;
+                }
             }
 
         }
