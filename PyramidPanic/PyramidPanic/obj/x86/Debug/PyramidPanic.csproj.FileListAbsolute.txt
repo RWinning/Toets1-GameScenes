@@ -36,3 +36,17 @@ C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\Toets 1\AM1A-piramidp
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\Toets 1\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\Toets 1\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.exe
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\Toets 1\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.pdb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Background.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Title.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_help.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_load.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_quit.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_scores.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_start.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\PyramidPanic.exe
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\PyramidPanic.pdb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.csprojResolveAssemblyReference.cache
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.exe
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.pdb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Scorpion.xnb

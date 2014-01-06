@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Met using kan je een XNA codebibliotheek toevoegen en gebruiken in je class
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -13,39 +14,48 @@ namespace PyramidPanic
 {
     public class PlayScene : IState
     {
-        //Fields
+        //Fields van de class PlayScene
         private PyramidPanic game;
+        private Scorpion scorpion;
 
+        // Constructor van de StartScene-class krijgt een object game mee van het type PyramidPanic
         public PlayScene(PyramidPanic game)
         {
             this.game = game;
+            this.Initialize();
         }
 
-        public void Intialize()
+        // Initialize methode. Deze methode initialiseert (geeft startwaarden aan variabelen).
+        // Void wil zeggen dat er niets teruggegeven wordt.
+        public void Initialize()
         {
-
-
+            this.LoadContent();
         }
 
+        // LoadContent methode. Deze methode maakt nieuwe objecten aan van de verschillende
+        // classes.
+        public void LoadContent()
+        {
+            this.scorpion = new Scorpion(this.game);
+        }
+
+        // Update methode. Deze methode wordt normaal 60 maal per seconde aangeroepen.
+        // en update alle variabelen, methods enz.......
         public void Update(GameTime gameTime)
         {
             if (Input.EdgeDetectKeyDown(Keys.B))
             {
                 this.game.IState = this.game.StartScene;
             }
-
-            if (Input.EdgeDetectKeyDown(Keys.Left) || Input.EdgeDetectMousePressRight())
-            {
-                this.game.IState = this.game.GameOverScene;
-            }
+            this.scorpion.Update(gameTime);
         }
 
+        // Draw methode. Deze methode wordt normaal 60 maal per seconde aangeroepen en
+        // tekent de textures op het canvas
         public void Draw(GameTime gameTime)
         {
-            this.game.GraphicsDevice.Clear(Color.Red);
-
-
+            this.game.GraphicsDevice.Clear(Color.Pink);
+            this.scorpion.Draw(gameTime);
         }
     }
 }
-

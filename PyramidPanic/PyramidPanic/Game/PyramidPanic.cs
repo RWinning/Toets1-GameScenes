@@ -19,14 +19,27 @@ namespace PyramidPanic
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
         
+        
 
         //Maak een variable aan van het type StartScene
         private StartScene startScene;
+
+        //Maak een variable aan van het type PlayScene
         private PlayScene playScene;
+
+        //Maak een variable aan van het type LoadScene
         private LoadScene loadScene;
+
+        //Maak een variable aan van het type HelpScene
         private HelpScene helpScene;
+
+        //Maak een variable aan van het type ScoresScene
         private ScoresScene scoresScene;
+
+        //Maak een variable aan van het type GameOverScene
         private GameOverScene gameOverScene;
+
+        //Maak een variable aan van het type QuitScene
         private QuitScene quitScene;
 
         //maak een variable ISate aan met type interface.
@@ -140,12 +153,29 @@ namespace PyramidPanic
             //We maken nu het object/instalatie aan van het type Startscene. Dit doe je door
             //de constructor aan te roepen van de Startscene class.
             this.startScene = new StartScene(this);
+
+            //Nieuwe instantie van de PlayScene class
             this.playScene = new PlayScene(this);
+
+            //Nieuwe instantie van de LoadScene class
             this.loadScene = new LoadScene(this);
+
+            //Nieuwe instantie van de HelpScene class
             this.helpScene = new HelpScene(this);
+
+            //Nieuwe instantie van de ScoresScene class
             this.scoresScene = new ScoresScene(this);
+
+            //Nieuwe instantie van de GameOverScene class
             this.gameOverScene = new GameOverScene(this);
+
+            //Nieuwe instantie van de QuitScene class
             this.quitScene = new QuitScene(this);
+
+
+
+           
+
             this.iState = this.startScene;
         }
         
@@ -161,10 +191,13 @@ namespace PyramidPanic
             if ((GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed) ||
                 (Keyboard.GetState().IsKeyDown(Keys.Escape)))
                 this.Exit();
+            //De update method van de static Input class wordt aangeroepen
             Input.Update();
+
             //De update methode van het object die toegewesen is aan het interface object
             //this.IState word aan geroepen.
             this.iState.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -176,8 +209,7 @@ namespace PyramidPanic
             
 
             //Voor een spriteBatch iets kan tekenen moet Begin() method
-            //aangeroepen worden.
-
+            //aangeroepen worden van de SpriteBatch class.
             this.spriteBatch.Begin();
 
             //De draw methode van het object die toegewesen is aan het interface object
@@ -187,6 +219,7 @@ namespace PyramidPanic
             //Nadat de spriteBatch.Draw() is aangeroepen moet End() method van de
             //SpriteBatch class worden aangeroepen.
             this.spriteBatch.End();
+
             base.Draw(gameTime);
         }
     }

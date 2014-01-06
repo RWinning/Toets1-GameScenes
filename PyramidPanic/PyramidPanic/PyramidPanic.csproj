@@ -111,6 +111,7 @@
     <Compile Include="GameScene\HelpScene\HelpScene.cs" />
     <Compile Include="GameScene\LoadScene\LoadScene.cs" />
     <Compile Include="GameScene\PlayScene\PlayScene.cs" />
+    <Compile Include="GameScene\PlayScene\Scorpion.cs" />
     <Compile Include="GameScene\QuitScene\QuitScene.cs" />
     <Compile Include="GameScene\ScoresScene\ScoresScene.cs" />
     <Compile Include="GameScene\StartScene\Menu.cs" />

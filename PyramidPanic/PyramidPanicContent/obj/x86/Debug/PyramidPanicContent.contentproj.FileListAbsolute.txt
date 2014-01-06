@@ -2,3 +2,4 @@ C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic\PyramidP
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 02-12-2013\PyramidPanic\PyramidPanicContent\obj\x86\Debug\PyramidPanicContent.contentprojResolveAssemblyReference.cache
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 09-12-2013\PyramidPanic\PyramidPanicContent\obj\x86\Debug\PyramidPanicContent.contentprojResolveAssemblyReference.cache
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\Toets 1\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\obj\x86\Debug\PyramidPanicContent.contentprojResolveAssemblyReference.cache
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\obj\x86\Debug\PyramidPanicContent.contentprojResolveAssemblyReference.cache
