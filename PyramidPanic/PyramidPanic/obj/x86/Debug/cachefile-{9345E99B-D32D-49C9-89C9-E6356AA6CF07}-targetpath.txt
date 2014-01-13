@@ -6,3 +6,5 @@ Content\Startscene\Button_quit.xnb
 Content\Startscene\Button_scores.xnb
 Content\Startscene\Button_start.xnb
 Content\PlayScene\Scorpion.xnb
+Content\PlayScene\Beetle.xnb
+Content\PlayScene\Explorer.xnb

@@ -50,3 +50,5 @@ C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-20
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.exe
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.pdb
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Scorpion.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Beetle.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Explorer.xnb

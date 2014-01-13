@@ -107,11 +107,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameScene\AnimetedSprite\AnimetedSprite.cs" />
     <Compile Include="GameScene\GameOverScene\GameOverScene.cs" />
     <Compile Include="GameScene\HelpScene\HelpScene.cs" />
     <Compile Include="GameScene\LoadScene\LoadScene.cs" />
+    <Compile Include="GameScene\PlayScene\Enemys\Beetle.cs" />
+    <Compile Include="GameScene\PlayScene\Explorer\Explorer.cs" />
     <Compile Include="GameScene\PlayScene\PlayScene.cs" />
-    <Compile Include="GameScene\PlayScene\Scorpion.cs" />
+    <Compile Include="GameScene\PlayScene\Enemys\Scorpion.cs" />
     <Compile Include="GameScene\QuitScene\QuitScene.cs" />
     <Compile Include="GameScene\ScoresScene\ScoresScene.cs" />
     <Compile Include="GameScene\StartScene\Menu.cs" />

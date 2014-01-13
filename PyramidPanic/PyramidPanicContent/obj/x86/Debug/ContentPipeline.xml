@@ -73,6 +73,24 @@
       <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Scorpion.xnb</Output>
       <Time>2014-01-06T09:33:34.1647869+01:00</Time>
     </Item>
+    <Item>
+      <Source>PlayScene\Beetle.png</Source>
+      <Name>PlayScene\Beetle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Beetle.xnb</Output>
+      <Time>2014-01-06T12:12:26.1567584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayScene\Explorer.png</Source>
+      <Name>PlayScene\Explorer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Explorer.xnb</Output>
+      <Time>2014-01-06T12:30:48.5796226+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
