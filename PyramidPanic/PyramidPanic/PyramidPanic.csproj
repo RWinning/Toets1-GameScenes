@@ -119,6 +119,7 @@
     <Compile Include="GameScene\PlayScene\Explorer\EplorerWalkDown.cs" />
     <Compile Include="GameScene\PlayScene\Explorer\Explorer.cs" />
     <Compile Include="GameScene\PlayScene\Explorer\ExplorerWalkLeft.cs" />
+    <Compile Include="GameScene\PlayScene\Explorer\ExplorerWalkUp.cs" />
     <Compile Include="GameScene\PlayScene\Explorer\ExplorerWlakRight.cs" />
     <Compile Include="GameScene\PlayScene\Explorer\ExporerIdle.cs" />
     <Compile Include="GameScene\PlayScene\PlayScene.cs" />
