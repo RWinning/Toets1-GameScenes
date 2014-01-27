@@ -1,5 +1,4 @@
-﻿// Met using kan je een XNA codebibliotheek toevoegen en gebruiken in je class
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -14,47 +13,52 @@ namespace PyramidPanic
 {
     public class Image
     {
-        //FieldsMethod
+        //Fields
+        // Maak een variabele (reference) aan van het type Texture2D met de naam texture
         private Texture2D texture;
 
-        //maak een variable aan oftewel referce van het type color met de naam color.
+        // Maak een variabele (reference) aan van het type Color met de naam color
         private Color color = Color.White;
 
-        //maak een variable aan om de game insantie op te slaan.
-        private PyramidPanic game;
-        
-        //Maak een rectengle voor het deselecteren van collision
+        //Maak een rectangle voor het detecteren van collisions
         private Rectangle rectangle;
 
+        // Maak een variabele aan om de game instantie in op te slaan.
+        private PyramidPanic game;
+
+        #region Properties
+        // Maak een property voor het color field
         public Color Color
         {
             get { return this.color; }
             set { this.color = value; }
         }
 
+        // Maak een property voor het rectangle field
         public Rectangle Rectangle
         {
             get { return this.rectangle; }
         }
+        #endregion
 
-        //ConstructorMethod
+        //Constructor
         public Image(PyramidPanic game, string pathNameAsset, Vector2 position)
         {
             this.game = game;
             this.texture = game.Content.Load<Texture2D>(pathNameAsset);
-            this.rectangle = new Rectangle((int)position.X, (int)position.Y, this.texture.Width, this.texture.Height); 
+            this.rectangle = new Rectangle((int)position.X,
+                                           (int)position.Y,
+                                           this.texture.Width,
+                                           this.texture.Height);
         }
 
-        //UpdateMethod
+        //Update
 
-        //DrawMethod
+        //Draw
         public void Draw(GameTime gameTime)
         {
             this.game.SpriteBatch.Draw(this.texture, this.rectangle, this.color);
-            
         }
-
-
-        //HelperMethod
+        //Helper Methods
     }
 }

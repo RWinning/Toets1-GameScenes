@@ -8,8 +8,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("PyramidPanic")]
 [assembly: AssemblyProduct("PyramidPanic")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCompany("Hewlett-Packard")]
+[assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 // On Windows, the following GUID is for the ID of the typelib if this
 // project is exposed to COM. On other platforms, it unique identifies the
 // title storage container when deploying this assembly to the device.
-[assembly: Guid("68059dfc-32a2-4b29-b3ea-8ff8c885da1c")]
+[assembly: Guid("92cbef55-fe96-46a7-a54c-83f5999230ad")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{9345E99B-D32D-49C9-89C9-E6356AA6CF07}</ProjectGuid>
+    <ProjectGuid>{8D6B57A7-0E70-4360-AE56-C183ED613443}</ProjectGuid>
     <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -42,78 +42,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Background.png">
+    <Compile Include="StartScene\Background.png">
       <Name>Background</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Title.png">
+    <Compile Include="StartScene\Title.png">
       <Name>Title</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Button_help.png">
+    <Compile Include="StartScene\Button_help.png">
       <Name>Button_help</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Button_load.png">
+    <Compile Include="StartScene\Button_load.png">
       <Name>Button_load</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Button_quit.png">
-      <Name>Button_quit</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Startscene\Button_scores.png">
+    <Compile Include="StartScene\Button_scores.png">
       <Name>Button_scores</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startscene\Button_start.png">
+    <Compile Include="StartScene\Button_quit.png">
+      <Name>Button_quit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="StartScene\Button_start.png">
       <Name>Button_start</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayScene\Scorpion.png">
+    <Compile Include="Scorpion\Scorpion.png">
       <Name>Scorpion</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayScene\Beetle.png">
+    <Compile Include="Beetle\Beetle.png">
       <Name>Beetle</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayScene\Explorer.png">
+    <Compile Include="Explorer\Explorer.png">
       <Name>Explorer</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="PlayScene\Background2.png">
-      <Name>Background2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
