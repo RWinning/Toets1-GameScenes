@@ -45,7 +45,7 @@ namespace PyramidPanic
             // kan lopen.
             this.explorer.Position -= this.velocity;
 
-            if (this.explorer.Position.X < 0 )
+            if (this.explorer.Position.X < 16 )
             {
                 //Breng de explorer in de toestand Idle
                 this.explorer.Position += this.velocity;
