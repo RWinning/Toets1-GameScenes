@@ -15,41 +15,41 @@ namespace PyramidPanic
     // Dit is een toestands class (dus moet hij de interface implementeren)
     // Deze class belooft dan plechtig dat hij de methods uit de interface heeft (toepast)
 
-    public class WalkUp : AnimatedSprite, IEntityState
+    public class WalkRight : AnimatedSprite, IEntityState
     {
         //Fields
-        private Beetle beetle;
+        private Scorpion scorpion;
         private Vector2 velocity;
 
         //Contstructor
-        public WalkUp(Beetle beetle)
-            : base(beetle)
+        public WalkRight(Scorpion scorpion)
+            : base(scorpion)
         {
-            this.beetle = beetle;
-            this.destinationRectangle = new Rectangle((int)this.beetle.Position.X,
-                                                      (int)this.beetle.Position.Y,
+            this.scorpion = scorpion;
+            this.destinationRectangle = new Rectangle((int)this.scorpion.Position.X,
+                                                      (int)this.scorpion.Position.Y,
                                                       32,
                                                       32);
-            this.velocity = new Vector2(0f, this.beetle.Speed);
+            this.velocity = new Vector2(this.scorpion.Speed, 0f);
         }
 
         public void Initialize()
         {
-            this.destinationRectangle.X = (int)this.beetle.Position.X;
-            this.destinationRectangle.Y = (int)this.beetle.Position.Y;
+            this.destinationRectangle.X = (int)this.scorpion.Position.X;
+            this.destinationRectangle.Y = (int)this.scorpion.Position.Y;
         }
 
         public new void Update(GameTime gameTime)
         {
-            if (this.beetle.Position.Y < 0)
+            if (this.scorpion.Position.X > 640 - 32)
             {
                 //Breng de beetle in de toestand walkdown
-                this.beetle.State = this.beetle.WalkDown;
-                this.beetle.WalkDown.Initialize();
+                this.scorpion.State = this.scorpion.WalkLeft;
+                this.scorpion.WalkLeft.Initialize();
             }
-            this.beetle.Position -= this.velocity;
-            this.destinationRectangle.X = (int)this.beetle.Position.X;
-            this.destinationRectangle.Y = (int)this.beetle.Position.Y;
+            this.scorpion.Position += this.velocity;
+            this.destinationRectangle.X = (int)this.scorpion.Position.X;
+            this.destinationRectangle.Y = (int)this.scorpion.Position.Y;
             base.Update(gameTime);
         }
 

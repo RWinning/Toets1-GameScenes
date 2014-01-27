@@ -12,32 +12,91 @@ using Microsoft.Xna.Framework.Media;
 
 namespace PyramidPanic
 {
-    public class Explorer : AnimatedSprite
+    public class Explorer : IAnimatedSprite
     {
         //Fields
         private PyramidPanic game;
+        private IEntityState state;
         private Texture2D texture;
+        private int speed = 2;
+        private Vector2 position;
+
+        //Maak van iedere toestand (state) een field
+        //private ExplorerWalkUp walkUp;
+        private ExplorerWalkDown walkDown;
+        private ExplorerWalkLeft walkLeft;
+        private ExplorerWalkRight walkRight;
+        private ExplorerIdle idle;
+
+        //properties
+        /*
+        public ExplorerWalkUp WalkUp
+        {
+            get { return this.walkUp; }
+        }
+        */
+        public ExplorerWalkDown WalkDown
+        {
+            get { return this.walkDown; }
+        }
+        public ExplorerWalkLeft WalkLeft
+        {
+            get { return this.walkLeft; }
+        }
+        public ExplorerWalkRight WalkRight
+        {
+            get { return this.walkRight; }
+        }
+        public ExplorerIdle Idle
+        {
+            get { return this.idle; }
+        }
+        public Vector2 Position
+        {
+            get { return this.position; }
+            set { this.position = value; }
+        }
+        public IEntityState State
+        {
+            set { this.state = value; }
+        }
+        public PyramidPanic Game
+        {
+            get { return this.game; }
+        }
+        public int Speed
+        {
+            get { return this.speed; }
+        }
+        public Texture2D Texture
+        {
+            get { return this.texture; }
+        }
 
         //Constructor
-        public Explorer(PyramidPanic game)
-            : base(game)
+        public Explorer(PyramidPanic game, Vector2 position)
         {
             this.game = game;
+            this.position = position;
             this.texture = game.Content.Load<Texture2D>(@"PlayScene\Explorer");
-            this.destinationRectangle.X = 400;
-            this.destinationRectangle.Y = 400;
+            //this.walkUp = new ExplorerWalkUp(this);
+            this.walkDown = new ExplorerWalkDown(this);
+            this.walkLeft = new ExplorerWalkLeft(this);
+            this.walkRight = new ExplorerWalkRight(this);
+            this.idle = new ExplorerIdle(this);
+            this.state = this.idle;
         }
 
         //Update
-        public new void Update(GameTime gameTime)
+        public void Update(GameTime gameTime)
         {
-            base.Update(gameTime);
+            this.state.Update(gameTime);
         }
 
         //Draw
         public void Draw(GameTime gameTime)
         {
-            base.Draw(gameTime, this.texture);
+            this.state.Draw(gameTime);
         }
     }
 }

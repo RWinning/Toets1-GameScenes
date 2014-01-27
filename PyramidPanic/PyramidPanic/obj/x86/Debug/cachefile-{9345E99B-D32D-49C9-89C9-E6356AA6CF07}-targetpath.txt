@@ -8,3 +8,4 @@ Content\Startscene\Button_start.xnb
 Content\PlayScene\Scorpion.xnb
 Content\PlayScene\Beetle.xnb
 Content\PlayScene\Explorer.xnb
+Content\PlayScene\Background2.xnb

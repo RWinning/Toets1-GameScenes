@@ -16,8 +16,8 @@ namespace PyramidPanic
     {
         //Fields van de class PlayScene
         private PyramidPanic game;
-        private Scorpion scorpion;
-        private Beetle beetle;
+        private Beetle beetle, beetle1;
+        private Scorpion scorpion, scorpion1;
         private Explorer explorer;
 
         // Constructor van de StartScene-class krijgt een object game mee van het type PyramidPanic
@@ -38,9 +38,11 @@ namespace PyramidPanic
         // classes.
         public void LoadContent()
         {
-            this.scorpion = new Scorpion(this.game);
-            this.beetle = new Beetle(this.game);
-            this.explorer = new Explorer(this.game);
+            this.beetle = new Beetle(this.game, new Vector2(100f, 300f));
+            this.beetle1 = new Beetle(this.game, new Vector2(400f, 100f));
+            this.scorpion = new Scorpion(this.game, new Vector2(300f, 188f));
+            this.scorpion1 = new Scorpion(this.game, new Vector2(188f, 300f));
+            this.explorer = new Explorer(this.game, new Vector2(0f, 240f));
         }
 
         // Update methode. Deze methode wordt normaal 60 maal per seconde aangeroepen.
@@ -51,8 +53,10 @@ namespace PyramidPanic
             {
                 this.game.IState = this.game.StartScene;
             }
-            this.scorpion.Update(gameTime);
             this.beetle.Update(gameTime);
+            this.beetle1.Update(gameTime);
+            this.scorpion.Update(gameTime);
+            this.scorpion1.Update(gameTime);
             this.explorer.Update(gameTime);
         }
 
@@ -61,8 +65,10 @@ namespace PyramidPanic
         public void Draw(GameTime gameTime)
         {
             this.game.GraphicsDevice.Clear(Color.Pink);
-            this.scorpion.Draw(gameTime);
             this.beetle.Draw(gameTime);
+            this.beetle1.Draw(gameTime);
+            this.scorpion.Draw(gameTime);
+            this.scorpion1.Draw(gameTime);
             this.explorer.Draw(gameTime);
         }
     }

@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Background.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Background.xnb</Output>
       <Time>2013-12-16T13:49:24.790856+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Title.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Title.xnb</Output>
       <Time>2013-12-16T13:49:24.7948592+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_help.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_help.xnb</Output>
       <Time>2013-12-16T13:49:24.790856+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_load.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_load.xnb</Output>
       <Time>2013-12-16T13:49:24.791857+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_quit.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_quit.xnb</Output>
       <Time>2013-12-16T13:49:24.7928569+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_scores.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_scores.xnb</Output>
       <Time>2013-12-16T13:49:24.7928569+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_start.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Startscene\Button_start.xnb</Output>
       <Time>2013-12-16T13:49:24.7938676+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Scorpion.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Scorpion.xnb</Output>
       <Time>2014-01-06T09:33:34.1647869+01:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Beetle.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Beetle.xnb</Output>
       <Time>2014-01-06T12:12:26.1567584+01:00</Time>
     </Item>
     <Item>
@@ -88,8 +88,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Explorer.xnb</Output>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Explorer.xnb</Output>
       <Time>2014-01-06T12:30:48.5796226+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PlayScene\Background2.png</Source>
+      <Name>PlayScene\Background2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\PlayScene\Background2.xnb</Output>
+      <Time>2014-01-13T14:10:40.8915238+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -97,10 +106,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 06-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanicContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 21-01-2014\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
