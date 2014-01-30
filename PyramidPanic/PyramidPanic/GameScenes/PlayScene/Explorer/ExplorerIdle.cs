@@ -14,7 +14,8 @@ namespace PyramidPanic
 {
     // Dit is een toestands class (dus moet hij de interface implementeren)
     // Deze class belooft dan plechtig dat hij de methods uit de interface heeft (toepast)
-    
+
+    //door : AnimatedSprite, IEntityStae word de klasse block uit gevoerd door de klasse AnimatedSprite en IEntityState
     public class ExplorerIdle : AnimatedSprite, IEntityState
     {
         //Fields
@@ -61,16 +62,22 @@ namespace PyramidPanic
                 this.explorer.WalkRight.Initialize();
 
             }
+            //Bij het indrukken van de Left knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkLeft
             else if (Input.LevelDetectKeyDown(Keys.Left))
             {
                 this.explorer.State = this.explorer.WalkLeft;
                 this.explorer.WalkLeft.Initialize();
             }
+            //Bij het indrukken van de Down knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkDown
             else if (Input.LevelDetectKeyDown(Keys.Down))
             {
                 this.explorer.State = this.explorer.WalkDown;
                 this.explorer.WalkDown.Initialize();
             }
+            //Bij het indrukken van de Up knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkUp
             else if (Input.LevelDetectKeyDown(Keys.Up))
             {
                 this.explorer.State = this.explorer.WalkUp;
