@@ -91,6 +91,33 @@
       <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Explorer\Explorer.xnb</Output>
       <Time>2014-01-27T03:12:50+01:00</Time>
     </Item>
+    <Item>
+      <Source>Block\Block.png</Source>
+      <Name>Block\Block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block.xnb</Output>
+      <Time>2014-01-27T15:29:57.5282112+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Block\Block_hor.png</Source>
+      <Name>Block\Block_hor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block_hor.xnb</Output>
+      <Time>2014-01-27T15:30:04.5657732+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Block\Block_vert.png</Source>
+      <Name>Block\Block_vert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block_vert.xnb</Output>
+      <Time>2014-01-27T15:30:08.8434497+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

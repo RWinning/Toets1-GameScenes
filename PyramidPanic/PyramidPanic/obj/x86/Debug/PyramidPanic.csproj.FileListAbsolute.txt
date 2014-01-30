@@ -14,3 +14,6 @@ C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-20
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.exe
 C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\obj\x86\Debug\PyramidPanic.pdb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block_hor.xnb
+C:\Users\Erwin\Documents\Visual Studio 2010\Projects\blok2\PyramidPanic 27-01-2014 - kopie\AM1A-piramidpanic\PyramidPanic\PyramidPanic\bin\x86\Debug\Content\Block\Block_vert.xnb
