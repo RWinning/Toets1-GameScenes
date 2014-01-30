@@ -61,18 +61,24 @@ namespace PyramidPanic
                 this.explorer.Idle.Effect = SpriteEffects.None;
                 this.explorer.Idle.Rotation = 0f;
             }
+            //Bij het indrukken van de Left knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkLeft
             else if (Input.EdgeDetectKeyUp(Keys.Left))
             {
                 this.explorer.State = this.explorer.Idle;
                 this.explorer.Idle.Effect = SpriteEffects.FlipHorizontally;
                 this.explorer.Idle.Rotation = 0f;
             }
+            //Bij het indrukken van de Down knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkDown
             else if (Input.EdgeDetectKeyUp(Keys.Down))
             {
                 this.explorer.State = this.explorer.Idle;
                 this.explorer.Idle.Effect = SpriteEffects.None;
                 this.explorer.Idle.Rotation = (float)Math.PI / 2;
             }
+            //Bij het indrukken van de Up knop moet de toestand van de explorer veranderen in
+            // ExplorerWalkUp
             else if (Input.EdgeDetectKeyUp(Keys.Up))
             {
                 this.explorer.State = this.explorer.Idle;
