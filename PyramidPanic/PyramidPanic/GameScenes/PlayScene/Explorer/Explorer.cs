@@ -12,6 +12,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace PyramidPanic
 {
+    //door : AnimatedSprite,  word de klasse block uit gevoerd door de klasse AnimatedSprite
     public class Explorer : IAnimatedSprite
     {
         //Fields
