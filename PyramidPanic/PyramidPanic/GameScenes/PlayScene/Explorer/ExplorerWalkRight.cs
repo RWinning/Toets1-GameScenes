@@ -14,7 +14,8 @@ namespace PyramidPanic
 {
     // Dit is een toestands class (dus moet hij de interface implementeren)
     // Deze class belooft dan plechtig dat hij de methods uit de interface heeft (toepast)
-    
+
+    //door : AnimatedSprite, IEntityStae word de klasse block uit gevoerd door de klasse AnimatedSprite en IEntityState
     public class ExplorerWalkRight : AnimatedSprite, IEntityState
     {
         //Fields
@@ -44,6 +45,7 @@ namespace PyramidPanic
             // kan lopen.
             this.explorer.Position += this.velocity;
 
+            //zorgt ervoor dat de explorer niet uit het beeld gaat.
             if (this.explorer.Position.X > 640 - 16)
             {
                 //Breng de explorer in de toestand Idle
