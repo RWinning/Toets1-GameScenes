@@ -15,7 +15,7 @@ namespace PyramidPanic
     // Dit is een toestands class (dus moet hij de interface implementeren)
     // Deze class belooft dan plechtig dat hij de methods uit de interface heeft (toepast)
 
-    //door : Image word de klasse block uit gevoerd door de klasse AnimatedSprite en IEntityState
+    //door : AnimatedSprite, IEntityStae word de klasse block uit gevoerd door de klasse AnimatedSprite en IEntityState
     public class ExplorerWalkUp : AnimatedSprite, IEntityState
     {
         //Fields
