@@ -21,6 +21,7 @@ namespace PyramidPanic
         protected SpriteEffects effect;
         protected int imageNumber = 1; //Loopt van 0 tm 3
         protected float rotation = 0f;
+        //zorgt ervoor dat de explorer goed draait
         private Vector2 pivot;
 
 
@@ -40,6 +41,7 @@ namespace PyramidPanic
             {
                 if (this.sourceRectangle.X < 96)
                 {
+                    //hierdor beweegt de explorer.
                     this.sourceRectangle.X += 32;
                 }
                 else
@@ -55,6 +57,7 @@ namespace PyramidPanic
         // Draw method van de AnimatedSprite class
         public void Draw(GameTime gameTime)
         {
+            //tekent de explorer op het schem
             this.iAnimatedSprite.Game.SpriteBatch.Draw(this.iAnimatedSprite.Texture,
                                               this.destinationRectangle,
                                               this.sourceRectangle,
