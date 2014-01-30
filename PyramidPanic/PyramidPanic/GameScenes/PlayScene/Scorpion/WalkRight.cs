@@ -14,7 +14,8 @@ namespace PyramidPanic
 {
     // Dit is een toestands class (dus moet hij de interface implementeren)
     // Deze class belooft dan plechtig dat hij de methods uit de interface heeft (toepast)
-    
+
+    //door : AnimatedSprite, IEntityStae word de klasse block uit gevoerd door de klasse AnimatedSprite en IEntityState
     public class WalkRight : AnimatedSprite, IEntityState
     {
         //Fields
@@ -40,6 +41,7 @@ namespace PyramidPanic
 
         public new void Update(GameTime gameTime)
         {
+            //zorgt ervoor dat de scorpion niet uit het beeld loopt
             if (this.scorpion.Position.X > 640 - 32)
             {
                 //Breng de beetle in de toestand walkdown
